@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    margin-right: 0;
+    background:darkblue;
+    margin-top: 0;
+}
+.header_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+    filter: blur(3px);
+    background: rgba(0, 0, 0, 7);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.logo{
+   padding-left: 20px;
+   padding-top: 20px;
+   position: absolute;
+   top: 20px;
+   margin-left: 25px;
+}
+#name{
+    padding-left: 90px;
+    padding-top: 0px;
+}
+.title_big{
+    color:green;
+    font-size: 35px;
+    margin-left: 20px;
+    
+}
+
+.def{
+    background: whitesmoke;
+    padding: 20px;
+    margin-top: 200px;
+    height: 800px;
+}
+.mono{
+    background: #cce8a8;
+    padding: 20px;
+    height:400px;
+    width: 100%;
+}
+.mauv{
+    background: white;
+    padding: 20px;
+    height: 400px;
+    width: 100%;
+}
+.adv{
+    background: #033e18;
+    padding: 20px;
+    height: 400px;
+    width: 100%;
+}
+.difference{
+    background: #f3cbcb;
+    padding: 20px;
+}
+.footer{
+    background: black;
+    padding: 20px;
+}
+.white{
+    color: white;
+}
+.pla{
+    text-align: center;
+}
+.container {
+    display: flex; 
+}
+.container img {
+    margin-right: 10px; 
+}
+.class{
+    display: flex;
+}
+.class{
+    margin-right: 10px;
+}
+h2{
+    font-size: x-large;
+}
+.foter{
+    background: black;
+    padding: 20px;
+    height: 900px;
+    width: 100%;
+}
+.figure1{
+    position: absolute;
+    top: 800px;
+    right: 20px;
+}
+.figure2{
+    position: absolute;
+    top: 800px;
+    right: 400px;
+}
+.figure3{
+    position: absolute;
+    top: 1200px;
+    right: 400px;
+}
+.figure4{
+    position: absolute;
+    top: 1200px;
+    right: 20px;
+}
+.content{
+    color:#fff ;
+    margin-top: 100px;
+    margin-left: 70px;
+    font-size: 30px;
+}
+.titre{ 
+    color: #fff;
+    margin-top: 0px;
+   
+}
+
+.petit{
+    font-size: 20px;
+}
+nav ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    margin-top: 150px;
+    padding: 0px;
+    width: 200px;
+    height:40px;
+    border-right: 1px solid #CCCCCC;
+    text-align: center;
+    line-height: 40px;
+    
+}
+nav li a{
+    color: #fff;
+}
+nav li:hover{
+    background-color: #033e18;
+}
+div ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+div li{
+    display: inline-block;
+    margin-top: 0px;
+    padding: 0px;
+    width: 0px;
+    height:40px;
+    
+    text-align: left;
+    line-height: 40px;
+    
+}
+div ul li h1{
+    font-style: italic;
+    position: absolute;
+}
+.explication{
+    position: absolute;
+    top: 900px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+
