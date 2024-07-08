@@ -1,7 +1,7 @@
 body{
     margin: 0;
     margin-right: 0;
-    background:darkblue;
+    background:white;
     margin-top: 0;
 }
 .header_img{
@@ -12,11 +12,9 @@ body{
     width: 100%;
     height: 800px;
     z-index: -1;
-    filter: blur(3px);
-    background: rgba(0, 0, 0, 7);
-    background-size: cover;
-    background-blend-mode: darken;
+    filter: blur(3px);    
 }
+
 .logo{
    padding-left: 20px;
    padding-top: 20px;
@@ -34,44 +32,60 @@ body{
     margin-left: 20px;
     
 }
+.figure12{
+    background: white;
+    position: absolute;
+    top: 3500px;
+}
 
 .def{
     background: whitesmoke;
     padding: 20px;
     margin-top: 200px;
-    height: 800px;
+    height: 900px;
+    width: 100%;
 }
 .mono{
     background: #cce8a8;
     padding: 20px;
-    height:400px;
+    height:500px;
     width: 100%;
 }
 .mauv{
     background: white;
     padding: 20px;
-    height: 400px;
+    height: 500px;
     width: 100%;
 }
 .adv{
     background: #033e18;
     padding: 20px;
-    height: 400px;
+    height: 500px;
     width: 100%;
 }
 .difference{
     background: #f3cbcb;
     padding: 20px;
+    height: 800px;
+    width: 100%;
 }
 .footer{
     background: black;
     padding: 20px;
+    height: 200px;
+    z-index: 1;
+    width: 100%;
 }
 .white{
     color: white;
 }
 .pla{
-    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    top: 2525px;
+    left: 100px;
+    right: 100px;
+
 }
 .container {
     display: flex; 
@@ -86,7 +100,15 @@ body{
     margin-right: 10px;
 }
 h2{
-    font-size: x-large;
+    font-size: 30px;
+    font-style: italic;
+}
+div figure img{
+    border-radius: 40px;
+}
+article div div img{
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 120px;
 }
 .foter{
     background: black;
@@ -106,13 +128,51 @@ h2{
 }
 .figure3{
     position: absolute;
-    top: 1200px;
+    top: 1100px;
     right: 400px;
 }
 .figure4{
     position: absolute;
-    top: 1200px;
+    top: 1100px;
     right: 20px;
+}
+.lien4{
+    position: absolute;
+    top: 1000px;
+    right: 120px;  
+    z-index: 1; 
+}
+.lien5{
+    position: absolute;
+    top: 1000px;
+    right: 530px;
+    z-index: 1;
+}
+.lien6{
+    position: absolute;
+    top: 1300px;
+    right: 120px;
+    z-index: 1;
+}
+.lien7{
+    position: absolute;
+    top: 1300px;
+    right: 530px;
+    z-index: 1;
+}
+.figure5{
+    position: absolute;
+    top:1400px ;
+    right: 450px;
+    font-size: 20px;
+    z-index: 1;
+}
+.figure6{
+    position: absolute;
+    top: 1400px;
+    right: 80px;
+    font-size: 20px;
+    z-index: 1;
 }
 .content{
     color:#fff ;
@@ -123,6 +183,9 @@ h2{
 .titre{ 
     color: #fff;
     margin-top: 0px;
+    position: absolute;
+    top: 45px;
+    left: 100px;
    
 }
 
@@ -177,5 +240,184 @@ div ul li h1{
     font-size: 30px;
     margin-left: 20px;
 }
+.rectangle{
+    position: absolute;
+    top: 1400px;
+    right: 440px;
+    height: 150px;
+    width: 250px;
+    transform: none;
+    background: #D9D9D9;
+    border-radius: 40px;
+}
+.rectangle2{
+    position: absolute;
+    top: 1400px;
+    right:60px;
+    height: 150px;
+    width: 250px;
+    transform: none;
+    background:#D9D9D9 ;
+    border-radius: 40px;
+}
+.image1{
+    position: absolute;
+    top: 1800px;
+    right: 200px;
+}
+.par1{
+    position: absolute;
+    top: 1800px;
+    right: 700px;
+    left: 100px;
+    font-size: 35px;
+}
+.figure7{
+    position: absolute;
+    top: 2300px;
+    right: 50px;
+}
+.figure8{
+    position: absolute;
+    top: 2300px;
+    right: 590px;
+}
+.figure9{
+    position: absolute;
+    top: 2300px;
+    right: 1000px;
+}
+.figure10{
+    position: absolute;
+    top: 2900px;
+    right: 150px;
+}
+.figure11{
+    position: absolute;
+    top: 3250px;
+    left: 80px;
+
+}
+.par3{
+    position: absolute;
+    top: 2850px;
+    left: 100px;
+    font-size: 30px;
+}
+.par4{
+    position: absolute;
+    top: 3250px;
+    right: 100px;
+    font-size: 30px;
+
+}
+.line{
+    border-left: 2px solid white;
+    height: 700px;
+    position: absolute;
+    left: 50%;
+    margin-left: -4px;
+    top: 2900px;
+}
+.im{
+    background: white;
+    height: 700px;
+    width: 100%;
+}
+.figure12{
+    position: absolute;
+    top: 3700px;
+    right: 400px;
+}
+.figure13{
+    position: absolute;
+    top: 4500px;
+    right: 150px;
+}
+.par5{
+    font-size: 30px;
+    position: absolute;
+    top: 4550px;
+    left: 100px;
+    right: 500px;
+}
+.figure14{
+    position: absolute;
+    top: 5050px;
+    right: 100px;
+}
+.par6{
+    font-size: 30px;
+    position: absolute;
+    top: 5100px;
+    left: 100px;
+    right: 500px;
+}
+.figure15{
+    position: absolute;
+    top: 5570px;
+    right: 150px;
+}
+.figure16{
+    position: absolute;
+    top: 5900px;
+    left: 80px;
+}
+.par7{
+    font-size: 30px;
+    position: absolute;
+    top:5500px ;
+    left: 100px;
+}
+.par8{
+    font-size: 30px;
+    position: absolute;
+    top: 5870px;
+    right: 100px;
+}
+.line2{
+    border-left: 2px solid black;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    margin-left: -4px;
+    top: 5600px;
+}
+a{
+    color: white;
+    font-size: 20px;
+}
+.f{
+    
+    filter: blur(2px);
+    position: absolute;
+    top: 6310px;
+    z-index: 0;
+}
+h3{
+    font-size: 20px;
+}
+.figure17{
+    position: absolute;
+    top: 6370px;
+    right: 200px;
+}
+.d{
+    position: absolute;
+    top: 6380px;
+    right: 165px;
+    color: white;
+    font-size: 30px;
+}
+.hr{
+    position: absolute;
+    top: 800
+    px;
+    left: 0;
+}
+article figure img{
+    border-radius:90px;
+}
+
 
 
