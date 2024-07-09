@@ -3,6 +3,7 @@ body{
     margin-right: 0;
     background:white;
     margin-top: 0;
+    width:1426px;
 }
 .header_img{
     position: absolute;
@@ -14,7 +15,6 @@ body{
     z-index: -1;
     filter: blur(3px);    
 }
-
 .logo{
    padding-left: 20px;
    padding-top: 20px;
@@ -36,6 +36,7 @@ body{
     background: white;
     position: absolute;
     top: 3500px;
+    width: 100%;
 }
 
 .def{
@@ -44,6 +45,15 @@ body{
     margin-top: 200px;
     height: 900px;
     width: 100%;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0% {background-color: whitesmoke;}
+    25% {background-color: #f3cbcb;}
+    50% {background-color: #cce8a8;}
+    100% {background-color: #c4d6d1;}
 }
 .mono{
     background: #cce8a8;
@@ -85,7 +95,6 @@ body{
     top: 2525px;
     left: 100px;
     right: 100px;
-
 }
 .container {
     display: flex; 
@@ -101,7 +110,8 @@ body{
 }
 h2{
     font-size: 30px;
-    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 div figure img{
     border-radius: 40px;
@@ -151,7 +161,7 @@ article div div img{
 .lien6{
     position: absolute;
     top: 1300px;
-    right: 120px;
+    right: 100px;
     z-index: 1;
 }
 .lien7{
@@ -170,7 +180,7 @@ article div div img{
 .figure6{
     position: absolute;
     top: 1400px;
-    right: 80px;
+    right: 40px;
     font-size: 20px;
     z-index: 1;
 }
@@ -179,15 +189,17 @@ article div div img{
     margin-top: 100px;
     margin-left: 70px;
     font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .titre{ 
     color: #fff;
     margin-top: 0px;
     position: absolute;
     top: 45px;
-    left: 100px;
-   
-}
+    left: 100px;  
+
+
+3}
 
 .petit{
     font-size: 20px;
@@ -247,7 +259,7 @@ div ul li h1{
     height: 150px;
     width: 250px;
     transform: none;
-    background: #D9D9D9;
+    background: #6a6868e4;
     border-radius: 40px;
 }
 .rectangle2{
@@ -257,13 +269,17 @@ div ul li h1{
     height: 150px;
     width: 250px;
     transform: none;
-    background:#D9D9D9 ;
+    background:#6a6868e4 ;
     border-radius: 40px;
 }
 .image1{
     position: absolute;
     top: 1800px;
     right: 200px;
+    transition: .5s;
+}
+.image1:hover{
+    transform: scale(1.1) rotate(10deg);
 }
 .par1{
     position: absolute;
@@ -276,16 +292,29 @@ div ul li h1{
     position: absolute;
     top: 2300px;
     right: 50px;
+    transition: .5s;
 }
+.figure7:hover{
+    transform: scale(1.1) rotate(10deg);
+}
+
 .figure8{
     position: absolute;
     top: 2300px;
     right: 590px;
+    transition: .5s;
+}
+.figure8:hover{
+    transform: scale(1.1) rotate(10deg);
 }
 .figure9{
     position: absolute;
     top: 2300px;
     right: 1000px;
+    transition: .5s;
+}
+.figure9:hover{
+    transform: scale(1.1) rotate(10deg);
 }
 .figure10{
     position: absolute;
@@ -322,17 +351,33 @@ div ul li h1{
 .im{
     background: white;
     height: 700px;
-    width: 100%;
+    width: auto;
 }
 .figure12{
+   position: absolute;
+   top: 3680px;
+   right: 0;
+   z-index: 1;
+}
+.plus{
     position: absolute;
-    top: 3700px;
-    right: 400px;
+    top: 3750px;
+    right: 50px;
+    left: 800px;
+    font-size: 33px;
+    z-index: 2;
+    background: #cce1d1;
+    border-top-left-radius: 600px;
+    border-bottom-right-radius: 40px;
 }
 .figure13{
     position: absolute;
     top: 4500px;
     right: 150px;
+    transition: .5s;
+}
+.figure13:hover{
+    transform: scale(1.1) rotate(10deg);
 }
 .par5{
     font-size: 30px;
@@ -345,6 +390,10 @@ div ul li h1{
     position: absolute;
     top: 5050px;
     right: 100px;
+    transition: .5s;
+}
+.figure14:hover{
+    transform: scale(1.1) rotate(10deg);
 }
 .par6{
     font-size: 30px;
@@ -386,16 +435,18 @@ div ul li h1{
 a{
     color: white;
     font-size: 20px;
+    font-family: cursive;
 }
 .f{
     
     filter: blur(2px);
     position: absolute;
     top: 6310px;
-    z-index: 0;
+    z-index: 1;
 }
 h3{
     font-size: 20px;
+    z-index: 2;
 }
 .figure17{
     position: absolute;
