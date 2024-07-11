@@ -4,6 +4,11 @@ body{
     background:white;
     margin-top: 0;
     width:1426px;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+html{
+    scroll-behavior: smooth;
 }
 .header_img{
     position: absolute;
@@ -197,9 +202,7 @@ article div div img{
     position: absolute;
     top: 45px;
     left: 100px;  
-
-
-3}
+}
 
 .petit{
     font-size: 20px;
@@ -272,11 +275,16 @@ div ul li h1{
     background:#6a6868e4 ;
     border-radius: 40px;
 }
-.image1{
+/*.image1{
     position: absolute;
     top: 1800px;
     right: 200px;
     transition: .5s;
+}*/
+.image1{
+    float: right;
+    transition: .5s;
+    padding: 40px;
 }
 .image1:hover{
     transform: scale(1.1) rotate(10deg);
@@ -371,11 +379,13 @@ div ul li h1{
     border-bottom-right-radius: 40px;
 }
 .figure13{
-    position: absolute;
+    float: right;
+    padding: 40px;
+}
+/*position: absolute;
     top: 4500px;
     right: 150px;
-    transition: .5s;
-}
+    transition: .5s;*/
 .figure13:hover{
     transform: scale(1.1) rotate(10deg);
 }
@@ -386,11 +396,16 @@ div ul li h1{
     left: 100px;
     right: 500px;
 }
-.figure14{
+/*.figure14{
     position: absolute;
     top: 5050px;
     right: 100px;
     transition: .5s;
+}*/
+.figure14{
+    float: right;
+    transition: .5s;
+    padding: 40px;
 }
 .figure14:hover{
     transform: scale(1.1) rotate(10deg);
@@ -468,6 +483,10 @@ h3{
 }
 article figure img{
     border-radius:90px;
+}
+.meme{
+    display: flex;
+    flex-direction: column;
 }
 
 
